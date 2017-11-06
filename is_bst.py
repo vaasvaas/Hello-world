@@ -15,9 +15,9 @@ def Run():
     for k in range(1, n+1):
         a, b, c = A[k]
         tree.append([int(a),int(b),int(c)])
-    #print(n)
-    #print("Tree", tree)
-    #print("----------------------------")
+    print(n)
+    print("Tree", tree)
+    print("----------------------------")
     return tree
 
 def TrueRun():
